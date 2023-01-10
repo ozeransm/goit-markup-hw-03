@@ -1,0 +1,246 @@
+/* logo color #4D5AE5, #2E2F42*/
+/* primary color #434455 */
+/* secondary color #2E2F42 */
+/* logo footer color #4D5AE5, #F4F4FD */
+/* footer color #E7E9FC */
+/* footer color #2E2F42 */
+:root {
+  --first-logo-color: #4d5ae5;
+  --prymary-color: #434455;
+  --secondary-color: #2e2f42;
+  --addr-active-color: #404bbf;
+  --main-background: #ffffff;
+  --footer-background: #2e2f42;
+  --footer-logo-color: #f4f4fd;
+  --header-logo-color: #2e2f42;
+  --hero-btn-color: #ffffff;
+  --footer-text-color: #e7e9fc;
+  --portfolio-btn-background: #f4f4fd;
+  --portfolio-btn-border-color: #e7e9fc;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* body style */
+body {
+  background: var(--main-background);
+  font-family: "Roboto", sans-serif;
+  color: var(--prymary-color);
+}
+button {
+  cursor: pointer;
+}
+.link {
+  color: var(--prymary-color);
+  font-style: normal;
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+/* Header */
+.header {
+}
+.header-navigation {
+}
+.header-logo-link {
+  color: var(--header-logo-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-span {
+  color: var(--first-logo-color);
+}
+.header-item-link {
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-item-link:hover,
+.header-item-link:focus {
+  color: var(--addr-active-color);
+}
+
+.header-item {
+}
+.header-item-link {
+}
+.header-addr {
+}
+.addr-item-link {
+  color: var(--prymary-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+.addr-item-link:hover,
+.addr-item-link:focus {
+  color: var(--addr-active-color);
+}
+.addr-item {
+}
+.addt-item-link {
+}
+/* hero */
+.hero {
+  background-color: var(--footer-background);
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--main-background);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--addr-active-color);
+}
+.hero-btn {
+  border-color: var(--first-logo-color);
+  background-color: var(--first-logo-color);
+  color: var(--hero-btn-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.04em;
+}
+/* Benefits */
+
+.benefit {
+}
+.benefits-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--prymary-color);
+}
+/* Work */
+.work {
+}
+.work-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+.work-list {
+}
+.work-item {
+}
+.work-link {
+}
+.work-img {
+}
+/* team */
+.team {
+}
+.team-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-officer {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Footer */
+.footer {
+  background-color: var(--footer-background);
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--footer-logo-color);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-text-color);
+}
+/* Portfolio */
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--first-logo-color);
+  color: #ffffff;
+}
+.portfolio-btn {
+  color: var(--first-logo-color);
+  background: var(--portfolio-btn-background);
+  border: 1px solid var(--portfolio-btn-border-color);
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.portfolio-list-title {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
