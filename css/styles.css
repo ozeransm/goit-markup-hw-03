@@ -77,7 +77,6 @@ button {
 }
 
 .container {
-  margin-top: 120px;
   margin-left: auto;
   margin-right: auto;
   width: 1128px;
@@ -85,18 +84,21 @@ button {
 }
 .head-container {
   display: flex;
-  margin-top: 0;
   justify-content: space-between;
   align-items: center;
   min-height: 74px;
 }
 .hero-container {
-  margin-top: 0;
   padding-top: 192px;
   padding-bottom: 192px;
 }
+.benefit-container {
+  padding: 120px 0 120px 0;
+}
+.work-container {
+  padding: 0 0 120px 0;
+}
 .footer-container {
-  margin-top: 0;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -158,8 +160,6 @@ button {
 }
 /* hero */
 .hero {
-  /* min-height: 603px;
-  padding-top: 192px; */
   background-color: var(--footer-background);
 }
 .hero-title {
@@ -261,7 +261,6 @@ button {
 }
 .team-item {
   width: 264px;
-  /* height: 380px; */
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
@@ -312,9 +311,8 @@ button {
   gap: 24px;
 }
 .portfolio-container {
-  margin-top: 0;
-  margin-bottom: 120px;
   padding-top: 96px;
+  padding-bottom: 120px;
 }
 .portfolio-list-img {
   display: flex;
