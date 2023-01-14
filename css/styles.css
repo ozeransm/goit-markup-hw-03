@@ -84,7 +84,7 @@ button {
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1128px;
+  max-width: 1158px;
   /* min-width: 470px; */
   outline: 1px solid red;
   padding: 0 15px;
@@ -103,7 +103,7 @@ button {
   /* padding: 120px 0 120px 0; */
 }
 .work-container {
-  padding: 0 0 120px 0;
+  padding-bottom: 120px;
 }
 .footer-container {
   padding: 100px 0;
@@ -180,7 +180,7 @@ button {
   margin-bottom: 48px;
 
   color: var(--main-background);
-  max-width: 492px;
+  width: 492px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -208,7 +208,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 .benefits-list > li {
   flex-basis: calc((100% - 72px) / 4);
@@ -244,7 +244,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
   /* overflow: hidden; */
 }
 .work-item {
@@ -253,7 +253,7 @@ button {
 .work-link {
 }
 .work-img {
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 /* team */
 .team {
@@ -283,7 +283,7 @@ button {
   border-radius: 0px 0px 4px 4px;
 }
 .team-img {
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 .team-officer {
   font-weight: 500;
@@ -348,7 +348,7 @@ button {
   background: #ffffff;
 }
 .protfolio-img {
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
